@@ -8,3 +8,7 @@ This is a smart stick assist the blind people in their walk.
 
 **Stick Searching** : Stick could be searched by the blind, by pressing a button which rings a loud ringtone on the stick. An IR Receiver, IR Remote, and a piezo buzzer were used to accomplish this.
 
+**Smart Decision Making** : If all three features need to be triggered at the same time then the priority is given as : 
+
+Stick Searching > Water Sensing > Obstacle Sensing
+
