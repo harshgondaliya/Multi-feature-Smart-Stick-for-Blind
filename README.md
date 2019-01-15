@@ -12,3 +12,4 @@ This is a smart stick assist the blind people in their walk.
 
 Stick Searching > Water Sensing > Obstacle Sensing
 
+Link to demo video of project: https://drive.google.com/open?id=11KAcwyzqoXvQq0XQCTnAzRjBNb7Ga63t
