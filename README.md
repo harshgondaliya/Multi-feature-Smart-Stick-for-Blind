@@ -25,7 +25,7 @@ The stick rings a different type of buzzer to execute each of the below mentione
 
 **Water Sensing** :	When the base of the stick touches any water or liquid element, a buzzer rings. This was done using the Soil Moisture Hygrometer Detection Module for Arduino. [_Video Link_]()
 
-**Stick Searching** : When the blind needs to search for his stick, he could press an IR Remote button. This will ring a ringtone on the stick. The sound of this ringtone will enable the blind to search for his stick. [_Video Link_]()
+**Stick Searching** : When the blind needs to search for his stick, he could press an IR Remote button. This will ring a ringtone at the active buzzer on the stick. The sound of this ringtone will enable the blind to search for his stick. [_Video Link_]()
 
 **Smart Decision Making** : If all three features need to be triggered at the same time then the priority is given as : 
 
