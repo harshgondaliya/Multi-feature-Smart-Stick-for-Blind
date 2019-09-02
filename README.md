@@ -1,15 +1,35 @@
-# Ultrasonic-Smart-Stick-for-Blind
-This is a smart stick assist the blind people in their walk. 
+# Multi-feature Smart Stick for Blind
+This is an Arduino-based smart stick that assists blind people by providing four crucial features - Obstacle Detection, Water Sensing, Stick Searching & Smart Decision Making.  
 
+**Credit:** The idea to incorporate these features in blind stick was inherited from the [Ultrasonic Blind Walking Stick Project](https://nevonprojects.com/ultrasonic-blind-walking-stick-project/) by Neon Projects. However, the arduino code and the working model shown in this repository is an indepedent work of the repository owner.
 
-**Obstacle Sensing** : Ultrasonic sensor HC-SR04 along with a magnetic buzzer was used to provide Obstacle Sensing within a 3-meter radius of the stick.•	Soil Hygrometer along with a magnetic buzzer was used to alarm for the impending water ahead of the blind person
+## Tools & Materials Used
+* Arduino UNO R3
+* HC-SR04 Ultrasonic Sensor Module
+* Soil Moisture Hygrometer Detection Module
+* Infrared IR Wireless Remote Control Kit (IR Receiver + IR Remote)
+* 3.3-5V Passive Buzzers - 2 pcs
+* Active Buzzer Module - 1 pc (to play ringtone)
+* Generic Breadboard
+* 9V Hi-Watt Battery
+* Jumper Breadboard Wires (M-F/M-M/F-F)
+* PVC Pipe (used for creating the armature)
+* Red Electric Tape (to give a blind-stick look)
 
-**Water Sensing** :	Soil Hygrometer along with a magnetic buzzer was used to alarm for the impending water ahead of the blind person
+## Diagram
+Diagram of the fully working model of stick with all its components is availalble at this [link]().
+## Working 
+The stick rings a different type of buzzer to execute each of the below mentioned features.
 
-**Stick Searching** : Stick could be searched by the blind, by pressing a button which rings a loud ringtone on the stick. An IR Receiver, IR Remote, and a piezo buzzer were used to accomplish this.
+**Obstacle Detection** : When an object is detected within 3 meter range of the stick, a buzzer rings. For this project, only a single HC-SR04 Ultrasonic Sensor Module was used. Thus, it can detect obstacle within 45 degree sector of the sensor. [_Video Link_]()
+
+**Water Sensing** :	When the base of the stick touches any water or liquid element, a buzzer rings. This was done using the Soil Moisture Hygrometer Detection Module for Arduino. [_Video Link_]()
+
+**Stick Searching** : When the blind needs to search for his stick, he could press an IR Remote button. This will ring a ringtone on the stick. The sound of this ringtone will enable the blind to search for his stick. [_Video Link_]()
 
 **Smart Decision Making** : If all three features need to be triggered at the same time then the priority is given as : 
 
-Stick Searching > Water Sensing > Obstacle Sensing
+Stick Searching > Water Sensing > Obstacle Sensing [_Video Link_]()
 
-Link to demo video of project: https://drive.google.com/open?id=11KAcwyzqoXvQq0XQCTnAzRjBNb7Ga63t
+This is because, before alarming the blind about a 3m distant object, it is more important to give him notice of the impending water. Moreover, if the blind wants to use Stick Searching feature then the rest two features will come in no use.
+
