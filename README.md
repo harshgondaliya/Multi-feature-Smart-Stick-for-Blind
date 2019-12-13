@@ -1,5 +1,5 @@
 # Multi-feature Smart Stick for Blind
-This is an Arduino-based smart stick that assists blind people by providing four crucial features - Obstacle Detection, Water Sensing, Stick Searching & Smart Decision Making.  
+This is an Arduino-based smart stick that assists blind people by providing four crucial features: Obstacle Detection, Water Sensing, Stick Searching and Smart Decision Making.  
 
 **Credit:** The idea to incorporate these features in blind stick was inherited from the [Ultrasonic Blind Walking Stick Project](https://nevonprojects.com/ultrasonic-blind-walking-stick-project/) by Neon Projects. However, the arduino code and the working model shown in this repository is an indepedent work of the repository owner.
 
