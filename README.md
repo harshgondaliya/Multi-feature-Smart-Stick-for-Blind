@@ -1,7 +1,7 @@
 # Multi-feature Smart Stick for Blind
 This is an Arduino-based smart stick that assists blind people by providing four crucial features: Obstacle Detection, Water Sensing, Stick Searching, Smart Decision Making.  
 
-**Credit:** The idea to incorporate these features in blind stick was inherited from the [Ultrasonic Blind Walking Stick Project](https://nevonprojects.com/ultrasonic-blind-walking-stick-project/) by Neon Projects. However, the arduino code and the working model shown in this repository is an indepedent work of the repository owner.
+**Credit:** The idea to incorporate the aforementioned four features was inherited from the [Ultrasonic Blind Walking Stick Project](https://nevonprojects.com/ultrasonic-blind-walking-stick-project/) by Neon Projects. However, the arduino code and the working model shown in this repository is an indepedent work of the repository owner.
 
 ## Tools & Materials Used
 * Arduino UNO R3
@@ -16,10 +16,8 @@ This is an Arduino-based smart stick that assists blind people by providing four
 * PVC Pipe (used for creating the armature)
 * Red Electric Tape (to give a blind-stick look)
 
-## Diagram
-Diagram of the fully working model of stick with all its components is availalble at this [link](https://github.com/harshgondaliya/Multi-feature-Smart-Stick-for-Blind/blob/master/Diagram/Multi-feature%20Smart%20Stick%20for%20Blind%20diagram.PNG).
 ## Working 
-The stick rings a different type of buzzer to execute each of the below mentioned features.
+The stick rings a different type of buzzer to execute each of the below mentioned features:
 
 **Obstacle Detection** : When an object is detected within 3 meter range of the stick, a buzzer rings. For this project, only a single HC-SR04 Ultrasonic Sensor Module was used. Thus, it can detect obstacle within 15 degree sector of the sensor. [_Video Link_](https://drive.google.com/open?id=1UZcNT_zw5SvOxyt5aXLhGN5MzU3aWY2t)
 
@@ -31,5 +29,5 @@ The stick rings a different type of buzzer to execute each of the below mentione
 
 Stick Searching > Water Sensing > Obstacle Sensing [_Video Link_](https://drive.google.com/open?id=1a4C9jij5G8dznrQMwNZcQ9HBPovyn7AU)
 
-This is because, before alarming the blind about a 3m distant object, it is more important to give him notice of the impending water. Moreover, if the blind wants to use Stick Searching feature then the rest two features will come in no use.
+It is because before alarming the blind about a 3m distant object, it is more important to give him notice of the impending water. Moreover, if the blind wants to use Stick Searching feature then the rest two features will come in no use.
 
