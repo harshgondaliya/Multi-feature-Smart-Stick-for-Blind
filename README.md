@@ -4,7 +4,7 @@ This is an Arduino-based smart stick that assists blind people by providing four
 **Credit:** The idea to incorporate the aforementioned four features was inherited from the [Ultrasonic Blind Walking Stick Project](https://nevonprojects.com/ultrasonic-blind-walking-stick-project/) by Neon Projects. However, the arduino code and the working model shown in this repository is an indepedent work of the repository owner.
 
 <p align="center">
-  <img src="https://drive.google.com/open?id=1TNLZlOGe5eTiiLiNacZi9DprCDlQg5P8">
+  <img src="https://github.com/harshgondaliya/Multi-feature-Smart-Stick-for-Blind/blob/master/Multi-feature%20Smart%20Stick%20for%20Blind%20diagram.PNG">
 </p>
 
 ## Tools & Materials Used
